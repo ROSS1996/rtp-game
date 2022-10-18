@@ -4,13 +4,13 @@
 }
 
 body {
-    background-color: #EAE2B7;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #E5EBB2;
 }
 
 header {
     text-align: center;
-    background-color: #D62828;
+    background-color: #F8C4B4;
 }
 
 main {
@@ -27,11 +27,21 @@ button {
     width: 100px;
     height: 100px;
     font-size: 23px;
+    background-color: #482673;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 4px 6px 0px rgba(121,119,133,1);
+}
+
+button:active {
+    background-color: #8546d6;
+    box-shadow: inset 0px 4px 6px 0px rgba(121,119,133,1);
 }
 
 footer {
     text-align: center;
-    background-color: #003049;
+    background-color: #301008;
     color: whitesmoke;
 }
 
