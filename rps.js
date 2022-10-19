@@ -14,19 +14,19 @@ function player_choice (option)  {
     }
     else if (option == 0 && pc_choice == 2) {
         ++user_score;
-        document.getElementById('round').innerHTML = 'You won the round';
+        document.getElementById('round').innerHTML = '<strong>You</strong> won the round';
     }
     else if (option == 1 && pc_choice == 0) {
         ++user_score;
-        document.getElementById('round').innerHTML = 'You won the round';
+        document.getElementById('round').innerHTML = '<strong>You</strong> won the round';
     }
     else if (option == 2 && pc_choice == 1) {
         ++user_score;
-        document.getElementById('round').innerHTML = 'You won the round';
+        document.getElementById('round').innerHTML = '<strong>You</strong> won the round';
     }
     else {
         ++pc_score;
-        document.getElementById('round').innerHTML = 'PC won the round';
+        document.getElementById('round').innerHTML = '<strong>PC</strong> won the round';
     }
     changeScore();
 }
